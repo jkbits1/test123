@@ -1,0 +1,81 @@
+
+
+Hi, I've enjoy pair programming when I've done it with Node.js and javascript.
+
+I've found HW4 tough, and wasn't always sure when I would work on it. Both these reasons kept me from pairing on HW4.
+
+I was reluctant to pair, as until I got things working, it was hard to feel confident. I didn't want to use up someone else's time if I couldn't add much constructive. It's best for me when I feel I'm contributung something, although I don't feel the need to be the best of the pair.
+
+The course, esp. HW4 has helped me to learn a lot. It got me watching the excellent videos and reading the book.
+
+Below this text is some of my online chat with other students.
+
+
+All the best
+
+jonk12
+
+
+[00:14] <jonk12___> hi - i've done all I'm going to do now, but am keen to chat about the work or do some pairing. Anyone interested?
+[00:16] <jonk12___> ECEStudent - I've had problems with grader when I left debugger statements in code
+[00:17] <ECEStudent> I haven't left any unless there are some in the skeleton code
+[00:17] <andreoss__> ECEStudent: it's down for me
+[00:18] <jonk12___> ECEStudent - I think the skeleton code is free of debugger statements, it's just our stuff that has them
+[00:19] <andreoss__> any change the grader will be working before due time on hw4?
+[00:20] <andreoss__> 40 min left
+[00:23] <ValeriVazquez>  is the grader down?
+[00:24] <ECEStudent> possibly, for hours
+[00:24] <ValeriVazquez> oh!!!
+[00:26] <timmy> Still hoping to get help for this question: http://edx-cs169-1x.stackexchange.com/questions/2629/hw4-help-routing-to-similar-movies-page-failing-in-cucumber-but-working-in-the
+[00:27] <jonk12___> timmy - I'm not sure, is that a routing issue or a steps issue?
+[00:28] <MMan> "I should be on the Similar Movies page for "Star Wars"  "  <-- this is a regex u catch on paths.rb
+[00:29] <MMan> and as the error.. says.. it should return        expected: "/movies/1/similar"
+[00:30] <Artem_Dubov_> how long grader would work?
+[00:30] <MMan> if u run cucumber BEFORE write any code.. it tells u where or what file u need to modify
+[00:30] <timmy> @Jonk12__ Well since the app works and the link is correct in the source code, I guess it's a Cucumber steps error
+[00:30] <Artem_Dubov_> someone have results?
+[00:30] <Nikolos> we are waiting for 30 min
+[00:31] <Nikolos> Is anybody got grade today/tonight?
+[00:31] <MMan> IF u already waited more than 10min.. I would resubmit
+[00:32] <jonk12___> timmy - I didn't do much or this step. I put a simple check in movie_steps.rb. Howevr
+[00:33] <jonk12___> as MMan says, perhaps it should return a path. I've found HW4 very tough, and have only just passed it.
+[00:33] <jonk12___> so don't take too much notice of my advice!
+[00:35] <kmehta> Hi, I finished it all yesterday and had hard time getting coverage.
+[00:35] <kmehta> Let me read your thread and reply.
+[00:36] <Renatoly> No, I haven't.  I am also having problems with the grader.  And I resubmitted 3 times already
+[00:36] <kmehta> @MMan - can you write what error you are seeing.
+[00:37] <kmehta> For coverage - I would suggest open index.html that is generated under coverage folder. It shows which lines are missing and till I saw it tests were not accurate.
+[00:38] <kmehta> I submitted yesterday and got my required coverage. However due to the complexity, I have not done any pair programming.
+[00:39] <josjosh> What:s going on with the grader?
+[00:43] <andreoss__> 30 minutes passed and still no  feed back
+[00:45] <fnpolo> I got my feedback around 20-30 minutes after submit
+[00:45] <eltanin___> Same problem here, the grader seems down
+[00:45] <MMan> kmehta: error ? me.. not :) i already finished all
+[00:46] <fnpolo> it seems it's just "a bit" overwhelmed
+[00:46] <MMan> kmehta: was talking about timmy ...
+[00:46] <MMan> <timmy> Still hoping to get help for this question: http://edx-cs169-1x.stackexchange.com/questions/2629/hw4-help-routing-to-similar-movies-page-failing-in-cucumber-but-working-in-the
+[00:47] <aakhedr_> it's says here that there should be a model method to find movies with matching directors - I've done that in the controller... Anyone did the same? What are the pros and cons?
+[00:47] <MMan> aakhedr_: i did that on controller too
+[00:48] <jonk12___> timmy - I didn't return a path in the step. Is it necessary?
+[00:48] <aakhedr_> and about the RSpec required for the grading?
+[00:48] <aakhedr_> I assume you've done it in the controller spec too :)
+[00:49] <jonk12___> aakhedr - I spike some code in the controller, then moved it to the model. I suppose it's more mvc in the model.
+[00:49] <aakhedr_> it seemed much easier and faster in the controller - I actually don't know how to do it in the model
+[00:49] == jonk12 [~webchat@54.235.222.247] has joined #CS_CS169.1x
+[00:49] <aakhedr_> or dont want to think :)
+[00:50] <jonk12___> aakhedr - similar issues for me. It's only a few lines, but I think they prefer the code in the model. Only 11 mins left, though!
+[00:51] <kmehta> @timmy - in your link_to you should use similar_movie_path(@movie)
+[00:51] <Tom__M__> jonk...dont worry about the time running out...the upload tool is spinning nonstop for me, so you won't make the deadline either way :-)
+[00:51] <kmehta> do not construct the path this way. It will not be valid. let routes do its job.
+[00:51] <aakhedr_> I am submitting with little code in the spec but at least passed the cukes - I think I will just accept the penalty.
+[00:52] <aakhedr_> next course we should adopt TDD and try the homework before watching the lectures - lol
+[00:52] <kmehta> @aakhedr_ --- RSpec is must for the grading. All the code should have > 90% coverage to pass.
+[00:52] <jonk12___> aakhedr - you get marks for a variety of things
+[00:52] <aakhedr_> I've done some - my coverage is 70%
+[00:53] <aakhedr_> work in progress
+[00:53] <jonk12___> kmehta - I think it's only some points gained for coverage, not all of them.
+[00:53] <phamh9090_> 20% for coverage
+[00:54] <jonk12___> phamh9090 - thats right
+[00:54] <timmy> @kmehta - thanks for the advice. I will change the link.
+[00:54] <kmehta> @Jonk12 - you are right. I had got 400 out of 500.
+[00:55] <rt100> *hmpf* SAAS, but not for the rader 
